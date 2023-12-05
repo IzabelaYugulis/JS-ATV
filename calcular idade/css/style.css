@@ -1,0 +1,70 @@
+body {
+    font-family: 'Quarzo';
+    background-color: #facada;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 10px;
+}
+ 
+.header h1 {
+    font-size: 54px;
+    color: #594246;
+    
+}
+ 
+ 
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+}
+ 
+.label-idade {
+    font-size: 24px;
+    color: #594246;
+    display: block;
+    margin-bottom: 20px; 
+}
+ 
+.input-idade {
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #F2ACBF;
+    border-radius: 8px;
+    outline: none;
+    font-size: 18px;
+}
+ 
+.btn-verificar {
+    padding: 12px;
+    background-color: #594246;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 18px;
+}
+ 
+.btn-resultado {
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #F2ACBF;
+    border-radius: 8px;
+    outline: none;
+    font-size: 18px;
+    width: 250px;
+}
+ 
+.btn-resultado {
+    text-align: center; 
+}
+ 
+.btn-verificar:hover {
+    background-color: #F2ACBF;
+}
+ 

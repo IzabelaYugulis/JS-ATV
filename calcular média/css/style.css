@@ -1,0 +1,66 @@
+body {
+    font-family: 'Quarzo';
+    background-color: #facada;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    color: #594246;
+}
+
+.header h1 {
+    font-size: 54px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 10%; /* Aumentei o valor do padding para aumentar o espaço do fundo branco */
+   
+    
+}
+
+label {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.input-nota {
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #F2ACBF;
+    border-radius: 8px;
+    outline: none;
+    font-size: 18px;
+}
+
+.btn-verificar {
+    padding: 12px;
+    background-color: #594246;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 18px;
+    margin-top: 20px;
+    width: 200px;
+}
+
+.btn-resultado {
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #F2ACBF;
+    border-radius: 8px;
+    outline: none;
+    font-size: 18px;
+    width: 250px;
+    text-align: center;
+}
+
+.btn-verificar:hover {
+    background-color: #F2ACBF;
+}
